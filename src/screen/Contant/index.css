@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f5f5f5;
+  color: #212529;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+  height: 80px;
+}
+
+nav ul {
+  display: flex;
+  gap: 50px;
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: #212934;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #59ab6e;
+}
+
+.Zay {
+  color: #59ab6e;
+  font-size: 48px;
+  font-weight: 300;
+}
+
+.Ec {
+  color: #212934;
+  font-weight: 300;
+}
+
+.kh {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 90vh;
+  background: #f5f5f5;
+}
+
+.ro {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 500px;
+}
+
+.slider {
+  position: relative;
+  width: 400px;
+  height: 400px;
+}
+.Contant {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 15px;
+  padding: 100px 390px;
+  height: 200px;
+  background-color: #e9eef5;
+}
+.inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  padding: 100px 450px;
+  background-color: white;
+}
+.inputext {
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+}
+.inputs p {
+  display: flex;
+  flex-direction: column;
+  font-weight: 100;
+  gap: 10px;
+}
+.inputext input {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 73vh;
+  height: 40px;
+  padding: 0 10px;
+  border-radius: 5px;
+}
+.sub input {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 150vh;
+  height: 40px;
+  border-radius: 5px;
+  padding: 0 10px;
+}
+.inputext input:focus,
+.sub input:focus,
+textarea {
+  outline: none;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+  padding: 5px 10px;
+}
+textarea {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  resize: vertical;
+  width: 150vh;
+  height: 200px;
+  border-radius: 5px;
+}
+.let {
+  color: white;
+  background-color: #59ab6e;
+  border: none;
+  border-radius: 7px;
+  width: 100px;
+  height: 40px;
+  font-size: 20px;
+}

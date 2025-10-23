@@ -16,7 +16,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 50px;
+  padding:  20px 30px;
   width: 20%;
 }
 
@@ -35,7 +35,8 @@ body {
   box-shadow: 0 0 4px;
 }
 .oput button {
-  padding: 15px 30px;
+  width: 200px !important;
+  height: 40px !important;
   border-radius: 10px;
   border: none;
   background: linear-gradient(45deg, #ff6b6b, #42a5f5);
@@ -61,8 +62,4 @@ body {
   font-weight: bold;
   text-align: center;
   display: block;
-}
-.loginin a{
- text-decoration: none;
- list-style: none;
 }

@@ -1,0 +1,41 @@
+/* Reset عام */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #59ab6e, #2d6a4f);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* زر الرابط */
+a {
+  text-decoration: none;
+  background: linear-gradient(90deg, #007bff, #00b4d8);
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 15px 40px;
+  border-radius: 50px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  letter-spacing: 1px;
+}
+
+/* تأثير عند المرور */
+a:hover {
+  background: linear-gradient(90deg, #00b4d8, #007bff);
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* تأثير عند الضغط */
+a:active {
+  transform: scale(0.97);
+}

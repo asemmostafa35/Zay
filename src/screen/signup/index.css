@@ -63,3 +63,6 @@ body {
   text-align: center;
   display: block;
 }
+.loginin a{
+  text-decoration: none;
+}
